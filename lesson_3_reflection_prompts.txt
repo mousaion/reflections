@@ -1,29 +1,36 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    A remote repository will allow other people to view and add to your work. It could also serve as a backup and potentially allow you to work from another computer. 
+
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You would want to manually pull changes to keep control over your local version as other users may have made changes to your remote that you do not yet want. 
+
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    A fork is a remote copy of a remote. A clone is a local copy of a remote. A branch is a git project that has two separate child commits. You would use a fork so yourself and other people could work on a new copy of a remote. You would use a clone so you could work locally on a remote. You would use a branch when making changes to a project that you would like to keep separate. 
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It allow you to keep track of how much your local copy has diverged from the remote copy. Important if you or someone else makes changes. 
+    
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without using git or github you would have to send the code as a document. This would make it harder to merge changes. You could avoid having to make complicated mergers by agreeing to have just one person do the coding at a time or for the other person to just send comments and suggestions. 
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    You would want to make changes in a separate branch do you could try out new features while keeping the master branch in tact. Working in the master would not require any kind of merge, but it might make reverting the changes more difficult, and it would make it harder to work on multiple changes. 
+
+    
